@@ -11,7 +11,7 @@ permalink: /
 
 I am a Research Assistant Professor in the Department of Computer Science and Engineering (CSE) at the Hong Kong University of Science and Technology (HKUST). Previously, I received my PhD degree in Computer Science and Engineering from HKUST under the supervision of Prof. Qian Zhang and Prof. Jin Zhang. Before that, I obtained my Bachelor's degree from Southern University of Science and Technology.
 
-<div class="callout">
+<div class="callout opening-callout">
 <h3 class="callout-title">Open Positions</h3>
 <p>I will join the Department of Computer Science at Hong Kong Baptist University as an Assistant Professor. I am looking for prospective PhD students (Fall 2027 intake) and research assistants. If you enjoy research and are serious about pursuing it as a career, please email me at <strong>wentaox_AT_hkbu.edu.hk</strong> with your CV, academic transcript, and a short summary (&lt;300 words) explaining what you want to achieve, why it matters, and how you would evaluate it. Preference will be given to applicants with experience in one or more of the following: (i) processing human sensor data and developing AI models, (ii) hardware prototyping, and (iii) conducting empirical studies.</p>
 </div>
