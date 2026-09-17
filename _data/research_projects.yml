@@ -1,0 +1,65 @@
+---
+- title: 'RimSense: Enabling Touch-based Interaction on Eyeglass Rim Using Piezoelectric
+    Sensors'
+  image: images/projects/rimsense.jpg
+  description: RimSense supports touch gestures on the eyeglass rim using piezoelectric
+    sensors. This design enables direct manipulation-based interaction.
+  area: Wearable interfaces
+  links:
+  - url: pub/rimsense.pdf
+    label: Paper
+  - url: https://youtu.be/W5R63hINpy0
+    label: Demo
+- title: 'BLEAR: Practical Wireless Earphone Tracking under BLE protocol'
+  image: images/projects/blear.jpg
+  description: BLEAR is an earphone-based position tracking system which can truly
+    be adopted under the BLE protocol with restricted sampling rate.
+  area: Wearable interfaces
+  links: []
+- title: Acoustic-based Upper Facial Action Recognition for Smart Eyewear
+  image: images/projects/fasense.jpg
+  description: Fasense is a smart eyewear design that incorporates pairs of acoustic
+    sensors to sense upper facial actions for immersive interaction.
+  area: Wearable interfaces
+  links:
+  - url: pub/imwut21.pdf
+    label: Paper
+  - url: https://youtu.be/-vXfif4fTC0
+    label: Talk
+  - url: https://youtu.be/vee5qgRjuD4
+    label: Demo
+- title: 'DeepBreath: Breathing Exercise Assessment with a Depth Camera'
+  image: images/projects/deepbreath.jpg
+  description: DeepBreath is a depth camera-based breathing training system that can
+    measure breathing rate, breathing volume and breathing mode (chest/belly).
+  area: Everyday healthcare
+  links:
+  - url: pub/deepbreath.pdf
+    label: Paper
+  - url: https://youtu.be/dVF4P_ivHFM
+    label: Demo
+- title: 'EarSpiro: Earphone-based Spirometry for Lung Function Assessment'
+  image: images/projects/earspiro.jpg
+  description: EarSpiro is a cost-efficient pulmonary function test (PFT) method with
+    a pair of mic-caring earphones. EarSpiro can estimate F-V curves and PFT indicators.
+  area: Everyday healthcare
+  links:
+  - url: pub/imwut22.pdf
+    label: Paper
+  - url: https://youtu.be/TBICgka-uh4
+    label: Demo
+- title: Noncontact Respiration Detection Leveraging Music and Broadcast Signals
+  image: images/projects/rhythm.jpg
+  description: This work presents a breathing rate estimation methods with a pair
+    of microphone and speaker, with any music pieces.
+  area: Everyday healthcare
+  links:
+  - url: pub/iotj21.pdf
+    label: Paper
+- title: 'PDAssess: A Privacy-preserving Free-speech based Parkinson’s Disease Daily
+    Assessment System'
+  image: images/projects/pdassess.jpg
+  description: PDAssess is a free speech-based Parkinson’s Disease (PD) severity assessment
+    system, which can be installed on commodity smart speakers.
+  area: Everyday healthcare
+  links: []
