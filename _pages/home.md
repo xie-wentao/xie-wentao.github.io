@@ -13,7 +13,7 @@ I am a Research Assistant Professor in the Department of Computer Science and En
 
 <div class="callout opening-callout">
 <h3 class="callout-title">Open Positions</h3>
-<p>I will join the Department of Computer Science at <strong>Hong Kong Baptist University</strong> as an Assistant Professor. I am looking for prospective PhD students (Fall 2027 intake) and research assistants. If you enjoy research and want to work with me, please email me at <strong>wentaox_AT_hkbu.edu.hk</strong> with your CV, academic transcript, and a short summary (no more than 300 words) outlining what you want to achieve, why it matters, and how you would evaluate it. Preference will be given to applicants with experience in one or more of the following: (i) processing human sensing data and developing AI models, (ii) hardware prototyping, and (iii) conducting empirical studies.</p>
+<p>I will join the Department of Computer Science at <strong>Hong Kong Baptist University</strong> as an Assistant Professor in mid-December 2026. I am looking for prospective PhD students (Fall 2027 intake) and research assistants. If you enjoy research and want to work with me, please email me at <strong>wentaox_AT_hkbu.edu.hk</strong> with your CV, academic transcript, and a short summary (no more than 300 words) outlining what you want to achieve, why it matters, and how you would evaluate it. Preference will be given to applicants with experience in one or more of the following: (i) processing human sensing data and developing AI models, (ii) hardware prototyping, and (iii) conducting empirical studies.</p>
 </div>
 
 ## Research
