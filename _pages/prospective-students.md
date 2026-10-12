@@ -34,7 +34,7 @@ My projects often span hardware prototyping, field data collection, signal proce
 ### Clear Expectation
 
 - I understand that pursuing a PhD can be frustrating, as the gratification of your hard work is delayed by many factors such as the paper review process and rejections. Therefore, I will try my best to communicate my expectations clearly with you from day one, so that you don't feel lost.
-- I encourage practicing sustainable work. That said, I understand the necessity to refill your energy from time to time, so taking a few days off or appropriate vacations will be supported.
+- I encourage a sustainable approach to work and understand the importance of taking time to recharge. I support reasonable time off and vacations.
 
 ## What I Expect from You
 
