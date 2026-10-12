@@ -48,6 +48,8 @@ analytics:
 # navbar text without changing the URL.
 nav_pages:
   - name: publications
+  - name: prospective-students
+    label: Prospective Students
   - name: teaching
   - name: services
 
