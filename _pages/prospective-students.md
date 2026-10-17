@@ -38,14 +38,15 @@ My projects often span hardware prototyping, field data collection, signal proce
 
 ## What I Expect from You
 
-- **Motivated.** The single most important thing I expect from you is that you **MUST** enjoy doing research. Research can be difficult, sometimes lonely, and often frustrating. During a research project, you may work on a problem and fail many times before arriving at an appropriate solution. Even then, the work may not be appreciated by reviewers and may face multiple rejections. Although you will have my support throughout the process, these challenges can be a lot to take on if you don't have a genuine interest in what you are doing.
+- **Motivated.** The single most important thing I expect from you is that you **MUST** enjoy doing research. Research can be difficult, sometimes lonely, and often frustrating. During a research project, you may work on a problem and fail many times before arriving at an appropriate solution. Even then, the work may not be appreciated by reviewers and may face multiple rejections. Although you will have my support throughout the entire process, these challenges can be a lot to take on if you don't have a genuine interest in what you are doing.
 - **Proactive.** I expect you to take ownership of your research projects and proactively seek my advice when needed.
 - **Relevant skills.** I expect you to have solid skills in either of the following: (i) building AI models; (ii) designing signal-processing algorithms; (iii) developing hardware prototypes; (iv) running user studies.
 - **A quick learner.** Techniques are evolving very quickly; you should be able to quickly familiarize yourself with the new ones.
+- **Be nice, be kind and be responsible.**
 
 ## How to Apply
 
-If you are interested in working with me after reading this page, please email me at **wentaox_AT_hkbu.edu.hk** with:
+If you are interested in working with me, please email me at **wentaox_AT_hkbu.edu.hk** with:
 
 1. Your CV.
 2. Your academic transcript.
