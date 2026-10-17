@@ -7,7 +7,8 @@
 | 内容 | 文件 |
 | --- | --- |
 | 姓名、职称、学校、邮箱、头像、Scholar/CV 链接、导航和主题色 | `_config.yml` |
-| 首页个人简介和研究方向 | `_pages/home.md` |
+| 首页个人简介、Open Positions 和研究方向 | `_pages/home.md` |
+| Prospective Students 招生详情 | `_pages/prospective-students.md` |
 | 论文（Publications 页） | `assets/ref.bib` |
 | 新闻（最新在前，侧栏显示前 3 条） | `_data/news.yml` |
 | 教学 | `_data/teaching.yml` |
@@ -18,6 +19,24 @@
 | 局部样式 | `_sass/components/_wentao.scss` |
 
 YAML 使用空格缩进，不要用 Tab。新闻、教学、奖项和项目按文件中的顺序显示。Markdown 中 `**文字**` 表示加粗，`[文字](网址)` 表示链接。
+
+## 更新招生信息
+
+招生信息分两处维护：
+
+1. 首页 `_pages/home.md` 的 `Open Positions` 是简短版本，用来说明当前招聘对象、联系方式和申请材料。末尾的 `Prospective Students` 链接指向详细页面。
+2. `_pages/prospective-students.md` 是详细版本，包含研究风格、学生可获得的支持、对学生的期待和申请方式。
+
+修改招生轮次、岗位类型、邮箱或申请材料时，应检查两处内容是否一致。奖学金金额和学校申请要求可能变化；更新前以 HKBU Graduate School 和 HKPFS 官方页面为准。
+
+导航栏由 `_config.yml` 的 `nav_pages` 控制。当前招生页面的配置是：
+
+```yaml
+- name: prospective-students
+  label: Prospective Students
+```
+
+`name` 对应 `_pages/prospective-students.md` 的网址 `/prospective-students/`；`label` 是导航栏显示的文字。修改 `_config.yml` 后，需要重启本地预览服务。
 
 ## 新增新闻
 
@@ -32,7 +51,7 @@ YAML 使用空格缩进，不要用 Tab。新闻、教学、奖项和项目按�
 
 ## 新增论文
 
-把图片和 PDF 分别放进 `images/projects/` 和 `pub/`。在 `assets/ref.bib` 中新增一个条目：
+把论文图片放进 `images/projects/`。如果需要提供站内 PDF，再把 PDF 放进 `pub/`。在 `assets/ref.bib` 中新增一个条目：
 
 ```bibtex
 @article{example2027,
@@ -41,7 +60,6 @@ YAML 使用空格缩进，不要用 Tab。新闻、教学、奖项和项目按�
   journal = {Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
   year = {2027},
   image = {images/projects/example.jpg},
-  file = {example.pdf},
   doi = {10.xxxx/example},
   video = {https://example.org/demo}
 }
@@ -49,8 +67,10 @@ YAML 使用空格缩进，不要用 Tab。新闻、教学、奖项和项目按�
 
 - `example2027` 是唯一标识，不能与其他论文重复。
 - 所有论文仅在 Publications 页显示；Home 不展示论文，已有的 `selected` 字段可以忽略。
-- `file` 只填 `pub/` 中的文件名；`image` 填从仓库根目录开始的相对路径。
-- `doi` 只填 DOI 标识，不要填 `https://doi.org/` 前缀。
+- `file` 只填 `pub/` 中的文件名；存在这个字段且文件实际存在时，页面显示 **PDF** 按钮。
+- `doi` 存在时，页面显示 **DOI** 按钮。只填 DOI 标识，不要填 `https://doi.org/` 前缀。
+- 当前做法是：已经正式发表的 ACM 论文使用 `doi`，不再填写 `file`；尚未正式出版且 DOI 还不能访问的论文（如 Swift）可暂时使用 `file`；IEEE IoTJ 目前也保留 PDF。DOI 生效后，可把 `file` 改成 `doi`。
+- `image` 填从仓库根目录开始的相对路径。
 - 可选的 `code`、`video`、`talk`、`slides`、`url` 用完整网址；没有的字段删掉，不要留示例值。
 - 会议论文使用 `@inproceedings` 和 `booktitle`，期刊论文使用 `@article` 和 `journal`。
 - 论文按年份和月份降序排列。需要同年排序时可填写 `month = {7}` 等字段。
@@ -93,7 +113,14 @@ git commit -m "Update academic website"
 git push origin main
 ```
 
-在仓库 **Actions → Build and Deploy** 中查看构建和部署状态。成功后访问 <https://xie-wentao.github.io/>。
+在仓库 **Actions → Build and Deploy** 中查看构建和部署状态。只有工作流显示成功后，才检查线上页面：<https://xie-wentao.github.io/>。
+
+发布后至少检查：
+
+- 导航栏中的页面是否都能打开；
+- 首页 Open Positions 的 Prospective Students 链接是否正确；
+- Publications 的 PDF/DOI 按钮是否符合预期；
+- 桌面和手机宽度下是否有明显排版问题。
 
 之后每次更新内容，只需预览、提交并推送到 `main`，工作流会自动编译和发布。无需上传 `_site/`，也无需重新建仓库或更改网站地址。不要再使用旧的“Deploy from a branch”直接发布 Jekyll 源文件。
 
